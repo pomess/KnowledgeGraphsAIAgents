@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+langchain-core
+langchain-groq
+sentence-transformers
+numpy
+python-multipart
+networkx
+langchain-experimental
+

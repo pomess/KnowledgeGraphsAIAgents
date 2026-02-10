@@ -1,0 +1,12 @@
+{
+    "history": [
+        {
+            "role": "user",
+            "content": "Who is Albert?"
+        },
+        {
+            "role": "model",
+            "content": "Albert is a person connected to Bruno in the graph."
+        }
+    ]
+}

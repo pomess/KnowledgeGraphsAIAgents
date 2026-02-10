@@ -1,0 +1,17 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.python-version
+
+# Local memory/database
+conversation_memory.json
+
+# IDEs
+.vscode/
+.idea/
+

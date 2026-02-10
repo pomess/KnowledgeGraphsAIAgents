@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pydantic
+langchain-core
+langchain-google-vertexai
+numpy
+python-multipart
+networkx
+langchain-experimental
+pymupdf
+python-docx
+beautifulsoup4
+requests
+

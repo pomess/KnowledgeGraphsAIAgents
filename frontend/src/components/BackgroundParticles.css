@@ -1,0 +1,21 @@
+.bg-particles-container {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.bg-particles-svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-particle {
+  position: absolute;
+  border-radius: 50%;
+  background: #38bdf8;
+  opacity: 0.15;
+  pointer-events: none;
+}

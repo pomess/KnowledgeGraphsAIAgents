@@ -1,0 +1,22 @@
+[project]
+name = "graphcreator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "fastapi>=0.128.0",
+    "langchain-core>=1.2.7",
+    "langchain-experimental>=0.4.1",
+    "langchain-google-vertexai",
+    "networkx>=3.6.1",
+    "numpy>=2.4.1",
+    "pydantic>=2.12.5",
+    "pymupdf>=1.26.7",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.2.1",
+    "python-multipart>=0.0.21",
+    "requests>=2.32.5",
+    "uvicorn>=0.40.0",
+]
