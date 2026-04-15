@@ -1,17 +1,30 @@
-# Environment variables
+# Secrets
 .env
+*.env
+
+# Archives
+*.zip
 
 # Python
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
 .venv/
-.python-version
+venv/
+.uv/
 
-# Local memory/database
-conversation_memory.json
+# Node
+node_modules/
+dist/
 
-# IDEs
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
 .vscode/
 .idea/
 
+# Obsidian (optional local config)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json

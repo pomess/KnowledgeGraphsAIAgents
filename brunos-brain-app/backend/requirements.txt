@@ -1,0 +1,6 @@
+fastapi>=0.135.0
+uvicorn[standard]
+google-genai>=1.70
+python-dotenv
+python-frontmatter
+python-multipart
