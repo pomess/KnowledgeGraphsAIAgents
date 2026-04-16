@@ -17,12 +17,14 @@ from wiki_agent import WikiAgent
 BRAIN_MARKERS = {"wiki", "AGENTS.md", "hot.md", "index.md"}
 
 def _discover_brains() -> dict[str, str]:
-    workspace = Path(__file__).resolve().parent.parent
+    vaults_dir = Path(__file__).resolve().parent.parent / "knowledge-vaults"
     brains: dict[str, str] = {}
-    for entry in sorted(workspace.iterdir()):
+    if not vaults_dir.is_dir():
+        return brains
+    for entry in sorted(vaults_dir.iterdir()):
         if not entry.is_dir() or entry.name.startswith("."):
             continue
-        children = {c.name for c in entry.iterdir()} if entry.is_dir() else set()
+        children = {c.name for c in entry.iterdir()}
         if children & BRAIN_MARKERS:
             brains[entry.name] = str(entry)
     return brains

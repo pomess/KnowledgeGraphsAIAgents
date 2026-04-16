@@ -8,8 +8,9 @@ LLM-maintained personal knowledge bases stored as Obsidian vaults, with a React 
 brunos-brain-app/
 ├── backend/          FastAPI server (Gemini 2.5 Flash)
 ├── frontend/         React + Vite UI
-├── Bruno's Brain/    Obsidian vault (personal wiki)
-└── Deloitte's Brain/ Obsidian vault (work wiki)
+└── knowledge-vaults/
+    ├── Bruno's Brain/    Obsidian vault (personal wiki)
+    └── Deloitte's Brain/ Obsidian vault (work wiki)
 ```
 
 ## Quick Start

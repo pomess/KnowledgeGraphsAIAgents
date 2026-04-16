@@ -19,7 +19,7 @@ Edit `.env` and set your Gemini API key:
 GEMINI_API_KEY=your-key-here
 ```
 
-Brain vaults (e.g. `Bruno's Brain/`, `Deloitte's Brain/`) are auto-discovered as sibling folders of `backend/`.
+Brain vaults (e.g. `knowledge-vaults/Bruno's Brain/`) are auto-discovered from the `knowledge-vaults/` folder.
 
 Start the server:
 
