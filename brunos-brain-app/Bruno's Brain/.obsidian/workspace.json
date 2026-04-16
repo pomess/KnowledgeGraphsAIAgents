@@ -11,10 +11,14 @@
             "id": "e2a8772ecf225b53",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "raw/Introducing Claude Opus 4.7.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introducing Claude Opus 4.7"
             }
           }
         ]
@@ -178,16 +182,18 @@
   },
   "active": "e2a8772ecf225b53",
   "lastOpenFiles": [
+    "raw/llm-wiki-idea-file.md",
+    "raw/AI 2027.md",
+    "raw/CV_Bruno_v3.pdf",
+    "raw/Introducing Claude Opus 4.7.md",
     "Untitled.canvas",
     "hot.md",
-    "raw/AI 2027.md",
     "wiki/sources/ai-2027.md",
     "wiki/concepts/intelligence-explosion.md",
     "wiki/entities/eli-lifland.md",
     "wiki/entities/daniel-kokotajlo.md",
     "wiki/concepts/artificial-superintelligence.md",
     "wiki/concepts/ai-r-and-d-progress-multiplier.md",
-    "raw/llm-wiki-idea-file.md",
     "wiki/concepts/iterated-distillation-amplification.md",
     "wiki/concepts/neuralese-recurrence.md",
     "wiki/concepts/ai-arms-race.md",
@@ -203,7 +209,6 @@
     "wiki/concepts/retrieval-augmented-generation.md",
     "wiki/sources/llm-wiki-idea-file.md",
     "create a link.md",
-    "index.md",
     "wiki/analyses",
     "wiki/concepts",
     "wiki/entities",

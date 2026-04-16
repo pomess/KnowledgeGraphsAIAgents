@@ -17,7 +17,7 @@ from wiki_agent import WikiAgent
 BRAIN_MARKERS = {"wiki", "AGENTS.md", "hot.md", "index.md"}
 
 def _discover_brains() -> dict[str, str]:
-    workspace = Path(__file__).resolve().parent.parent.parent
+    workspace = Path(__file__).resolve().parent.parent
     brains: dict[str, str] = {}
     for entry in sorted(workspace.iterdir()):
         if not entry.is_dir() or entry.name.startswith("."):

@@ -13,12 +13,13 @@ cd backend
 pip install -r requirements.txt
 ```
 
-Edit `.env` and set your Gemini API key and vault path:
+Edit `.env` and set your Gemini API key:
 
 ```
 GEMINI_API_KEY=your-key-here
-VAULT_PATH=C:\Users\Bruno\Desktop\Obsidian Knowledge Graphs\Bruno's Brain
 ```
+
+Brain vaults (e.g. `Bruno's Brain/`, `Deloitte's Brain/`) are auto-discovered as sibling folders of `backend/`.
 
 Start the server:
 
